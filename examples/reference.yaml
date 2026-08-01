@@ -1,0 +1,616 @@
+notes:
+  # 01 - A0
+  - pitch: 21
+    start_beat: 0
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 02 - A#0
+  - pitch: 22
+    start_beat: 2
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 03 - B0
+  - pitch: 23
+    start_beat: 4
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 04 - C1
+  - pitch: 24
+    start_beat: 6
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 05 - C#1
+  - pitch: 25
+    start_beat: 8
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 06 - D1
+  - pitch: 26
+    start_beat: 10
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 07 - D#1
+  - pitch: 27
+    start_beat: 12
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 08 - E1
+  - pitch: 28
+    start_beat: 14
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 09 - F1
+  - pitch: 29
+    start_beat: 16
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 10 - F#1
+  - pitch: 30
+    start_beat: 18
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 11 - G1
+  - pitch: 31
+    start_beat: 20
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 12 - G#1
+  - pitch: 32
+    start_beat: 22
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 13 - A1
+  - pitch: 33
+    start_beat: 24
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 14 - A#1
+  - pitch: 34
+    start_beat: 26
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 15 - B1
+  - pitch: 35
+    start_beat: 28
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 16 - C2
+  - pitch: 36
+    start_beat: 30
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 17 - C#2
+  - pitch: 37
+    start_beat: 32
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 18 - D2
+  - pitch: 38
+    start_beat: 34
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 19 - D#2
+  - pitch: 39
+    start_beat: 36
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 20 - E2
+  - pitch: 40
+    start_beat: 38
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 21 - F2
+  - pitch: 41
+    start_beat: 40
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 22 - F#2
+  - pitch: 42
+    start_beat: 42
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 23 - G2
+  - pitch: 43
+    start_beat: 44
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 24 - G#2
+  - pitch: 44
+    start_beat: 46
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 25 - A2
+  - pitch: 45
+    start_beat: 48
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 26 - A#2
+  - pitch: 46
+    start_beat: 50
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 27 - B2
+  - pitch: 47
+    start_beat: 52
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 28 - C3
+  - pitch: 48
+    start_beat: 54
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 29 - C#3
+  - pitch: 49
+    start_beat: 56
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 30 - D3
+  - pitch: 50
+    start_beat: 58
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 31 - D#3
+  - pitch: 51
+    start_beat: 60
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 32 - E3
+  - pitch: 52
+    start_beat: 62
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 33 - F3
+  - pitch: 53
+    start_beat: 64
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 34 - F#3
+  - pitch: 54
+    start_beat: 66
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 35 - G3
+  - pitch: 55
+    start_beat: 68
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 36 - G#3
+  - pitch: 56
+    start_beat: 70
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 37 - A3
+  - pitch: 57
+    start_beat: 72
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 38 - A#3
+  - pitch: 58
+    start_beat: 74
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 39 - B3
+  - pitch: 59
+    start_beat: 76
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 40 - C4（中央 C）
+  - pitch: 60
+    start_beat: 78
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 41 - C#4
+  - pitch: 61
+    start_beat: 80
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 42 - D4
+  - pitch: 62
+    start_beat: 82
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 43 - D#4
+  - pitch: 63
+    start_beat: 84
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 44 - E4
+  - pitch: 64
+    start_beat: 86
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 45 - F4
+  - pitch: 65
+    start_beat: 88
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 46 - F#4
+  - pitch: 66
+    start_beat: 90
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 47 - G4
+  - pitch: 67
+    start_beat: 92
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 48 - G#4
+  - pitch: 68
+    start_beat: 94
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 49 - A4（440 Hz）
+  - pitch: 69
+    start_beat: 96
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 50 - A#4
+  - pitch: 70
+    start_beat: 98
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 51 - B4
+  - pitch: 71
+    start_beat: 100
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 52 - C5
+  - pitch: 72
+    start_beat: 102
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 53 - C#5
+  - pitch: 73
+    start_beat: 104
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 54 - D5
+  - pitch: 74
+    start_beat: 106
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 55 - D#5
+  - pitch: 75
+    start_beat: 108
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 56 - E5
+  - pitch: 76
+    start_beat: 110
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 57 - F5
+  - pitch: 77
+    start_beat: 112
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 58 - F#5
+  - pitch: 78
+    start_beat: 114
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 59 - G5
+  - pitch: 79
+    start_beat: 116
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 60 - G#5
+  - pitch: 80
+    start_beat: 118
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 61 - A5
+  - pitch: 81
+    start_beat: 120
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 62 - A#5
+  - pitch: 82
+    start_beat: 122
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 63 - B5
+  - pitch: 83
+    start_beat: 124
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 64 - C6
+  - pitch: 84
+    start_beat: 126
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 65 - C#6
+  - pitch: 85
+    start_beat: 128
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 66 - D6
+  - pitch: 86
+    start_beat: 130
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 67 - D#6
+  - pitch: 87
+    start_beat: 132
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 68 - E6
+  - pitch: 88
+    start_beat: 134
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 69 - F6
+  - pitch: 89
+    start_beat: 136
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 70 - F#6
+  - pitch: 90
+    start_beat: 138
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 71 - G6
+  - pitch: 91
+    start_beat: 140
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 72 - G#6
+  - pitch: 92
+    start_beat: 142
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 73 - A6
+  - pitch: 93
+    start_beat: 144
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 74 - A#6
+  - pitch: 94
+    start_beat: 146
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 75 - B6
+  - pitch: 95
+    start_beat: 148
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 76 - C7
+  - pitch: 96
+    start_beat: 150
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 77 - C#7
+  - pitch: 97
+    start_beat: 152
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 78 - D7
+  - pitch: 98
+    start_beat: 154
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 79 - D#7
+  - pitch: 99
+    start_beat: 156
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 80 - E7
+  - pitch: 100
+    start_beat: 158
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 81 - F7
+  - pitch: 101
+    start_beat: 160
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 82 - F#7
+  - pitch: 102
+    start_beat: 162
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 83 - G7
+  - pitch: 103
+    start_beat: 164
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 84 - G#7
+  - pitch: 104
+    start_beat: 166
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 85 - A7
+  - pitch: 105
+    start_beat: 168
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 86 - A#7
+  - pitch: 106
+    start_beat: 170
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 87 - B7
+  - pitch: 107
+    start_beat: 172
+    duration_beats: 2
+    velocity: 90
+    track_id: right
+
+  # 88 - C8
+  - pitch: 108
+    start_beat: 174
+    duration_beats: 2
+    velocity: 90
+    track_id: right

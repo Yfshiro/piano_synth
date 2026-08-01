@@ -1,0 +1,18 @@
+dataset:
+  raw_directory: data/raw/88keys
+  decoded_directory: data/decoded
+  manifest_path: data/manifests/88keys.yaml
+
+audio:
+  render_sample_rate: 48000
+  channels: 2
+  output_subtype: FLOAT
+  master_gain_db: -12.0
+  release_seconds: 0.35
+  tail_seconds: 2.0
+
+analysis:
+  fmin_hz: 25.0
+  fmax_hz: 5000.0
+  cents_review_threshold: 35.0
+  minimum_duration_seconds: 0.25

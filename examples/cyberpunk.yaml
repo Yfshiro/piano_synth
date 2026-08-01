@@ -1,0 +1,1694 @@
+sample_rate: 48000
+
+tempo:
+  - beat: 0
+    bpm: 125
+
+tracks:
+  # ============================================================
+  # 右手：第一页第 1～15 小节
+  # 第 1～8 小节休止，从第 9 小节最后一拍附近进入
+  # ============================================================
+  - track_id: right
+    name: Right Hand
+    gain_db: -5.0
+    pan: 0.12
+
+    notes:
+      # --------------------------------------------------------
+      # 第 9 小节
+      # start_beat = 32
+      # 前三拍休止，最后一拍进入
+      # 谱面标有 8va，以下 MIDI 已按实际发声音高提高八度
+      # --------------------------------------------------------
+
+      - pitch: 76         # E5
+        start_beat: 35
+        duration_beats: 0.5
+        velocity: 82
+        track_id: right
+
+      - pitch: 76         # E5
+        start_beat: 35.5
+        duration_beats: 0.5
+        velocity: 84
+        track_id: right
+
+      # --------------------------------------------------------
+      # 第 10 小节
+      # start_beat = 36
+      # --------------------------------------------------------
+
+      - pitch: 83         # B5
+        start_beat: 36
+        duration_beats: 0.5
+        velocity: 92
+        track_id: right
+
+      - pitch: 80         # G#5
+        start_beat: 36.5
+        duration_beats: 0.5
+        velocity: 86
+        track_id: right
+
+      - pitch: 80         # G#5
+        start_beat: 37
+        duration_beats: 0.5
+        velocity: 85
+        track_id: right
+
+      - pitch: 78         # F#5
+        start_beat: 37.5
+        duration_beats: 0.5
+        velocity: 82
+        track_id: right
+
+      - pitch: 78         # F#5
+        start_beat: 38
+        duration_beats: 0.5
+        velocity: 81
+        track_id: right
+
+      - pitch: 76         # E5
+        start_beat: 38.5
+        duration_beats: 0.5
+        velocity: 80
+        track_id: right
+
+      - pitch: 78         # F#5
+        start_beat: 39
+        duration_beats: 0.5
+        velocity: 82
+        track_id: right
+
+      - pitch: 76         # E5
+        start_beat: 39.5
+        duration_beats: 0.5
+        velocity: 80
+        track_id: right
+
+      # --------------------------------------------------------
+      # 第 11～13 小节
+      # 长音跨越小节线
+      # --------------------------------------------------------
+
+      - pitch: 76         # E5
+        start_beat: 40
+        duration_beats: 0.5
+        velocity: 84
+        track_id: right
+
+      - pitch: 75         # D#5
+        start_beat: 40.5
+        duration_beats: 1.5
+        velocity: 82
+        track_id: right
+
+      - pitch: 73         # C#5
+        start_beat: 42
+        duration_beats: 6
+        velocity: 76
+        track_id: right
+
+      # --------------------------------------------------------
+      # 第 14 小节
+      # start_beat = 52
+      # 前半小节休止，后半进入
+      # --------------------------------------------------------
+
+      - pitch: 76         # E5
+        start_beat: 54
+        duration_beats: 0.5
+        velocity: 82
+        track_id: right
+
+      - pitch: 76         # E5
+        start_beat: 54.5
+        duration_beats: 0.5
+        velocity: 83
+        track_id: right
+
+      - pitch: 80         # G#5
+        start_beat: 55
+        duration_beats: 1
+        velocity: 90
+        track_id: right
+
+      # --------------------------------------------------------
+      # 第 15 小节
+      # start_beat = 56
+      # 谱面八度线仍然有效
+      # --------------------------------------------------------
+
+      - pitch: 80         # G#5
+        start_beat: 56
+        duration_beats: 0.5
+        velocity: 88
+        track_id: right
+
+      - pitch: 80         # G#5
+        start_beat: 56.5
+        duration_beats: 0.5
+        velocity: 86
+        track_id: right
+
+      - pitch: 80         # G#5
+        start_beat: 57
+        duration_beats: 0.5
+        velocity: 85
+        track_id: right
+
+      - pitch: 80         # G#5
+        start_beat: 57.5
+        duration_beats: 0.5
+        velocity: 85
+        track_id: right
+
+      - pitch: 80         # G#5
+        start_beat: 58
+        duration_beats: 0.5
+        velocity: 84
+        track_id: right
+
+      - pitch: 81         # A5
+        start_beat: 58.5
+        duration_beats: 0.5
+        velocity: 87
+        track_id: right
+
+      - pitch: 81         # A5
+        start_beat: 59
+        duration_beats: 1
+        velocity: 86
+        track_id: right
+        # --------------------------------------------------------
+      # 第 16 小节，beat 60～64
+      # 上一页末尾的长音延续至本小节
+      # --------------------------------------------------------
+      - {pitch: 81, start_beat: 60, duration_beats: 4, velocity: 78, track_id: right} # A5
+
+      # --------------------------------------------------------
+      # 第 17 小节，beat 64～68
+      # 前 2.5 拍休止，后半拍组进入；8va
+      # --------------------------------------------------------
+      - {pitch: 78, start_beat: 66.5, duration_beats: 0.5, velocity: 82, track_id: right} # F#5
+      - {pitch: 78, start_beat: 67.0, duration_beats: 0.5, velocity: 83, track_id: right} # F#5
+      - {pitch: 81, start_beat: 67.5, duration_beats: 0.5, velocity: 88, track_id: right} # A5
+
+      # --------------------------------------------------------
+      # 第 18 小节，beat 68～72；8va
+      # --------------------------------------------------------
+      - {pitch: 81, start_beat: 68.0, duration_beats: 0.5, velocity: 88, track_id: right} # A5
+      - {pitch: 78, start_beat: 68.5, duration_beats: 0.5, velocity: 84, track_id: right} # F#5
+      - {pitch: 78, start_beat: 69.0, duration_beats: 0.5, velocity: 83, track_id: right} # F#5
+      - {pitch: 76, start_beat: 69.5, duration_beats: 0.5, velocity: 81, track_id: right} # E5
+      - {pitch: 76, start_beat: 70.0, duration_beats: 0.5, velocity: 80, track_id: right} # E5
+      - {pitch: 75, start_beat: 70.5, duration_beats: 0.5, velocity: 79, track_id: right} # D#5
+      - {pitch: 76, start_beat: 71.0, duration_beats: 0.5, velocity: 80, track_id: right} # E5
+      - {pitch: 75, start_beat: 71.5, duration_beats: 0.5, velocity: 78, track_id: right} # D#5
+
+      # --------------------------------------------------------
+      # 第 19 小节，beat 72～76；8va
+      # --------------------------------------------------------
+      - {pitch: 73, start_beat: 72.0, duration_beats: 1.5, velocity: 80, track_id: right} # C#5
+      - {pitch: 78, start_beat: 73.5, duration_beats: 0.5, velocity: 85, track_id: right} # F#5
+      - {pitch: 73, start_beat: 74.0, duration_beats: 1.0, velocity: 80, track_id: right} # C#5
+      - {pitch: 75, start_beat: 75.5, duration_beats: 0.5, velocity: 82, track_id: right} # D#5
+
+      # --------------------------------------------------------
+      # 第 20 小节，beat 76～80；8va
+      # --------------------------------------------------------
+      - {pitch: 73, start_beat: 76.0, duration_beats: 1.5, velocity: 80, track_id: right} # C#5
+      - {pitch: 78, start_beat: 77.5, duration_beats: 0.5, velocity: 85, track_id: right} # F#5
+      - {pitch: 71, start_beat: 78.0, duration_beats: 2.0, velocity: 76, track_id: right} # B4
+
+      # --------------------------------------------------------
+      # 第 21 小节，beat 80～84
+      # 前三拍休止，最后一拍进入
+      # --------------------------------------------------------
+      - {pitch: 80, start_beat: 83.0, duration_beats: 0.5, velocity: 88, track_id: right} # G#5
+      - {pitch: 81, start_beat: 83.5, duration_beats: 0.5, velocity: 89, track_id: right} # A5
+
+      # --------------------------------------------------------
+      # 第 22 小节，beat 84～88；8va
+      # --------------------------------------------------------
+      - {pitch: 81, start_beat: 84.0, duration_beats: 0.5, velocity: 87, track_id: right} # A5
+      - {pitch: 81, start_beat: 84.5, duration_beats: 0.5, velocity: 86, track_id: right} # A5
+      - {pitch: 81, start_beat: 85.0, duration_beats: 0.5, velocity: 86, track_id: right} # A5
+      - {pitch: 83, start_beat: 85.5, duration_beats: 0.5, velocity: 90, track_id: right} # B5
+      - {pitch: 85, start_beat: 86.0, duration_beats: 6.0, velocity: 86, track_id: right} # C#6，连至第23小节
+
+      # --------------------------------------------------------
+      # 第 23 小节，beat 88～92
+      # 已并入上一条跨小节长音
+      # --------------------------------------------------------
+
+      # --------------------------------------------------------
+      # 第 24 小节，beat 92～96
+      # 长音继续；末拍有高音和弦
+      # --------------------------------------------------------
+      - {pitch: 85, start_beat: 94.0, duration_beats: 2.0, velocity: 82, track_id: right} # C#6
+
+      # 最后一拍的高音和弦
+      - {pitch: 80, start_beat: 95.0, duration_beats: 1.0, velocity: 88, track_id: right} # G#5
+      - {pitch: 92, start_beat: 95.0, duration_beats: 1.0, velocity: 92, track_id: right} # G#6
+
+      # --------------------------------------------------------
+      # 第 25 小节，beat 96～100
+      # 从这里进入和弦型织体
+      # --------------------------------------------------------
+
+      # 第 1 拍休止
+
+      # 第 2 拍：八分和弦
+      - {pitch: 66, start_beat: 97.0, duration_beats: 0.45, velocity: 78, track_id: right} # F#4
+      - {pitch: 71, start_beat: 97.0, duration_beats: 0.45, velocity: 82, track_id: right} # B4
+      - {pitch: 75, start_beat: 97.0, duration_beats: 0.45, velocity: 85, track_id: right} # D#5
+
+      - {pitch: 68, start_beat: 97.5, duration_beats: 0.45, velocity: 79, track_id: right} # G#4
+      - {pitch: 71, start_beat: 97.5, duration_beats: 0.45, velocity: 82, track_id: right} # B4
+      - {pitch: 76, start_beat: 97.5, duration_beats: 0.45, velocity: 86, track_id: right} # E5
+
+      # 第 3 拍：附点和弦
+      - {pitch: 68, start_beat: 98.0, duration_beats: 1.5, velocity: 80, track_id: right}
+      - {pitch: 71, start_beat: 98.0, duration_beats: 1.5, velocity: 83, track_id: right}
+      - {pitch: 76, start_beat: 98.0, duration_beats: 1.5, velocity: 87, track_id: right}
+
+      # 第 4 拍后半
+      - {pitch: 66, start_beat: 99.5, duration_beats: 0.5, velocity: 78, track_id: right}
+      - {pitch: 71, start_beat: 99.5, duration_beats: 0.5, velocity: 81, track_id: right}
+      - {pitch: 75, start_beat: 99.5, duration_beats: 0.5, velocity: 85, track_id: right}
+
+      # --------------------------------------------------------
+      # 第 26 小节，beat 100～104
+      # --------------------------------------------------------
+      - {pitch: 66, start_beat: 100.0, duration_beats: 0.5, velocity: 79, track_id: right}
+      - {pitch: 71, start_beat: 100.0, duration_beats: 0.5, velocity: 82, track_id: right}
+      - {pitch: 75, start_beat: 100.0, duration_beats: 0.5, velocity: 85, track_id: right}
+
+      - {pitch: 68, start_beat: 100.5, duration_beats: 0.5, velocity: 80, track_id: right}
+      - {pitch: 71, start_beat: 100.5, duration_beats: 0.5, velocity: 83, track_id: right}
+      - {pitch: 76, start_beat: 100.5, duration_beats: 0.5, velocity: 87, track_id: right}
+
+      - {pitch: 68, start_beat: 101.0, duration_beats: 1.0, velocity: 81, track_id: right}
+      - {pitch: 71, start_beat: 101.0, duration_beats: 1.0, velocity: 84, track_id: right}
+      - {pitch: 76, start_beat: 101.0, duration_beats: 1.0, velocity: 88, track_id: right}
+
+      - {pitch: 68, start_beat: 102.0, duration_beats: 1.0, velocity: 80, track_id: right}
+      - {pitch: 71, start_beat: 102.0, duration_beats: 1.0, velocity: 83, track_id: right}
+      - {pitch: 76, start_beat: 102.0, duration_beats: 1.0, velocity: 87, track_id: right}
+
+      - {pitch: 66, start_beat: 103.0, duration_beats: 0.5, velocity: 78, track_id: right}
+      - {pitch: 71, start_beat: 103.0, duration_beats: 0.5, velocity: 81, track_id: right}
+      - {pitch: 75, start_beat: 103.0, duration_beats: 0.5, velocity: 85, track_id: right}
+
+      - {pitch: 66, start_beat: 103.5, duration_beats: 0.5, velocity: 77, track_id: right}
+      - {pitch: 71, start_beat: 103.5, duration_beats: 0.5, velocity: 80, track_id: right}
+      - {pitch: 75, start_beat: 103.5, duration_beats: 0.5, velocity: 84, track_id: right}
+
+      # --------------------------------------------------------
+      # 第 27 小节，beat 104～108
+      # 高音区和弦
+      # --------------------------------------------------------
+      - {pitch: 71, start_beat: 104.0, duration_beats: 1.5, velocity: 84, track_id: right}
+      - {pitch: 76, start_beat: 104.0, duration_beats: 1.5, velocity: 88, track_id: right}
+      - {pitch: 83, start_beat: 104.0, duration_beats: 1.5, velocity: 94, track_id: right}
+
+      - {pitch: 71, start_beat: 105.5, duration_beats: 0.5, velocity: 82, track_id: right}
+      - {pitch: 76, start_beat: 105.5, duration_beats: 0.5, velocity: 86, track_id: right}
+      - {pitch: 83, start_beat: 105.5, duration_beats: 0.5, velocity: 92, track_id: right}
+
+      - {pitch: 71, start_beat: 106.0, duration_beats: 1.5, velocity: 84, track_id: right}
+      - {pitch: 76, start_beat: 106.0, duration_beats: 1.5, velocity: 88, track_id: right}
+      - {pitch: 83, start_beat: 106.0, duration_beats: 1.5, velocity: 94, track_id: right}
+
+      - {pitch: 66, start_beat: 107.5, duration_beats: 0.5, velocity: 78, track_id: right}
+      - {pitch: 71, start_beat: 107.5, duration_beats: 0.5, velocity: 82, track_id: right}
+      - {pitch: 75, start_beat: 107.5, duration_beats: 0.5, velocity: 86, track_id: right}
+
+      # --------------------------------------------------------
+      # 第 28 小节，beat 108～112
+      # --------------------------------------------------------
+      - {pitch: 66, start_beat: 108.0, duration_beats: 0.5, velocity: 79, track_id: right}
+      - {pitch: 71, start_beat: 108.0, duration_beats: 0.5, velocity: 82, track_id: right}
+      - {pitch: 75, start_beat: 108.0, duration_beats: 0.5, velocity: 86, track_id: right}
+
+      - {pitch: 66, start_beat: 108.5, duration_beats: 0.5, velocity: 78, track_id: right}
+      - {pitch: 71, start_beat: 108.5, duration_beats: 0.5, velocity: 81, track_id: right}
+      - {pitch: 75, start_beat: 108.5, duration_beats: 0.5, velocity: 85, track_id: right}
+
+      - {pitch: 68, start_beat: 109.0, duration_beats: 0.5, velocity: 79, track_id: right}
+      - {pitch: 71, start_beat: 109.0, duration_beats: 0.5, velocity: 82, track_id: right}
+      - {pitch: 76, start_beat: 109.0, duration_beats: 0.5, velocity: 86, track_id: right}
+
+      - {pitch: 68, start_beat: 109.5, duration_beats: 0.5, velocity: 80, track_id: right}
+      - {pitch: 73, start_beat: 109.5, duration_beats: 0.5, velocity: 83, track_id: right}
+      - {pitch: 78, start_beat: 109.5, duration_beats: 0.5, velocity: 88, track_id: right}
+
+      - {pitch: 68, start_beat: 110.0, duration_beats: 1.0, velocity: 81, track_id: right}
+      - {pitch: 73, start_beat: 110.0, duration_beats: 1.0, velocity: 84, track_id: right}
+      - {pitch: 78, start_beat: 110.0, duration_beats: 1.0, velocity: 89, track_id: right}
+
+      - {pitch: 66, start_beat: 111.0, duration_beats: 1.0, velocity: 78, track_id: right}
+      - {pitch: 71, start_beat: 111.0, duration_beats: 1.0, velocity: 82, track_id: right}
+      - {pitch: 75, start_beat: 111.0, duration_beats: 1.0, velocity: 86, track_id: right}
+
+      # --------------------------------------------------------
+      # 第 29 小节，beat 112～116
+      # 前半为延续和弦；后半有单音型
+      # --------------------------------------------------------
+      - {pitch: 66, start_beat: 112.0, duration_beats: 2.0, velocity: 77, track_id: right}
+      - {pitch: 71, start_beat: 112.0, duration_beats: 2.0, velocity: 81, track_id: right}
+      - {pitch: 75, start_beat: 112.0, duration_beats: 2.0, velocity: 85, track_id: right}
+
+      - {pitch: 75, start_beat: 114.5, duration_beats: 0.5, velocity: 82, track_id: right}
+      - {pitch: 76, start_beat: 115.0, duration_beats: 0.5, velocity: 84, track_id: right}
+      - {pitch: 76, start_beat: 115.5, duration_beats: 0.5, velocity: 83, track_id: right}
+
+      # --------------------------------------------------------
+      # 第 30 小节，beat 116～120
+      # --------------------------------------------------------
+      - {pitch: 83, start_beat: 116.0, duration_beats: 1.5, velocity: 93, track_id: right}
+      - {pitch: 83, start_beat: 117.5, duration_beats: 0.5, velocity: 91, track_id: right}
+
+      - {pitch: 83, start_beat: 118.0, duration_beats: 1.0, velocity: 92, track_id: right}
+      - {pitch: 78, start_beat: 119.0, duration_beats: 0.5, velocity: 84, track_id: right}
+      - {pitch: 78, start_beat: 119.5, duration_beats: 0.5, velocity: 83, track_id: right}
+       # 第 31 小节，beat 120-124
+      - {pitch: 64, start_beat: 120.0, duration_beats: 0.9,  velocity: 72, track_id: right} # E4
+      - {pitch: 71, start_beat: 120.0, duration_beats: 0.9,  velocity: 78, track_id: right} # B4
+      - {pitch: 63, start_beat: 121.0, duration_beats: 2.9,  velocity: 70, track_id: right} # D#4
+      - {pitch: 70, start_beat: 121.0, duration_beats: 2.9,  velocity: 76, track_id: right} # A#4
+
+      # 第 32 小节，beat 124-128
+      - {pitch: 75, start_beat: 124.0, duration_beats: 1.45, velocity: 76, track_id: right} # D#5
+      - {pitch: 83, start_beat: 124.0, duration_beats: 1.45, velocity: 83, track_id: right} # B5
+      - {pitch: 75, start_beat: 125.5, duration_beats: 0.45, velocity: 75, track_id: right} # D#5
+      - {pitch: 83, start_beat: 125.5, duration_beats: 0.45, velocity: 82, track_id: right} # B5
+      - {pitch: 68, start_beat: 126.0, duration_beats: 0.9,  velocity: 72, track_id: right} # G#4
+      - {pitch: 71, start_beat: 126.0, duration_beats: 0.9,  velocity: 75, track_id: right} # B4
+      - {pitch: 75, start_beat: 126.0, duration_beats: 0.9,  velocity: 79, track_id: right} # D#5
+      - {pitch: 80, start_beat: 126.0, duration_beats: 0.9,  velocity: 82, track_id: right} # G#5
+      - {pitch: 68, start_beat: 127.0, duration_beats: 0.45, velocity: 71, track_id: right} # G#4
+      - {pitch: 71, start_beat: 127.0, duration_beats: 0.45, velocity: 74, track_id: right} # B4
+      - {pitch: 78, start_beat: 127.0, duration_beats: 0.45, velocity: 80, track_id: right} # F#5
+      - {pitch: 68, start_beat: 127.5, duration_beats: 0.45, velocity: 71, track_id: right} # G#4
+      - {pitch: 71, start_beat: 127.5, duration_beats: 0.45, velocity: 74, track_id: right} # B4
+      - {pitch: 78, start_beat: 127.5, duration_beats: 0.45, velocity: 80, track_id: right} # F#5
+
+      # 第 33 小节，beat 128-132
+      # 第一拍休止
+      - {pitch: 68, start_beat: 129.0, duration_beats: 0.45, velocity: 71, track_id: right} # G#4
+      - {pitch: 71, start_beat: 129.0, duration_beats: 0.45, velocity: 74, track_id: right} # B4
+      - {pitch: 78, start_beat: 129.0, duration_beats: 0.45, velocity: 80, track_id: right} # F#5
+      - {pitch: 68, start_beat: 129.5, duration_beats: 0.45, velocity: 71, track_id: right} # G#4
+      - {pitch: 71, start_beat: 129.5, duration_beats: 0.45, velocity: 74, track_id: right} # B4
+      - {pitch: 78, start_beat: 129.5, duration_beats: 0.45, velocity: 80, track_id: right} # F#5
+      - {pitch: 70, start_beat: 130.0, duration_beats: 1.45, velocity: 73, track_id: right} # A#4
+      - {pitch: 73, start_beat: 130.0, duration_beats: 1.45, velocity: 76, track_id: right} # C#5
+      - {pitch: 78, start_beat: 130.0, duration_beats: 1.45, velocity: 81, track_id: right} # F#5
+      - {pitch: 68, start_beat: 131.5, duration_beats: 0.45, velocity: 72, track_id: right} # G#4
+      - {pitch: 71, start_beat: 131.5, duration_beats: 0.45, velocity: 75, track_id: right} # B4
+      - {pitch: 78, start_beat: 131.5, duration_beats: 0.45, velocity: 80, track_id: right} # F#5
+
+      # 第 34 小节，beat 132-136
+      - {pitch: 64, start_beat: 132.0, duration_beats: 0.45, velocity: 70, track_id: right} # E4
+      - {pitch: 68, start_beat: 132.0, duration_beats: 0.45, velocity: 73, track_id: right} # G#4
+      - {pitch: 71, start_beat: 132.0, duration_beats: 0.45, velocity: 76, track_id: right} # B4
+      - {pitch: 73, start_beat: 132.0, duration_beats: 0.45, velocity: 79, track_id: right} # C#5
+      - {pitch: 64, start_beat: 132.5, duration_beats: 0.45, velocity: 70, track_id: right} # E4
+      - {pitch: 68, start_beat: 132.5, duration_beats: 0.45, velocity: 73, track_id: right} # G#4
+      - {pitch: 71, start_beat: 132.5, duration_beats: 0.45, velocity: 76, track_id: right} # B4
+      - {pitch: 75, start_beat: 132.5, duration_beats: 0.45, velocity: 80, track_id: right} # D#5
+      - {pitch: 64, start_beat: 133.0, duration_beats: 0.9,  velocity: 70, track_id: right} # E4
+      - {pitch: 68, start_beat: 133.0, duration_beats: 0.9,  velocity: 73, track_id: right} # G#4
+      - {pitch: 71, start_beat: 133.0, duration_beats: 0.9,  velocity: 76, track_id: right} # B4
+      - {pitch: 75, start_beat: 133.0, duration_beats: 0.9,  velocity: 80, track_id: right} # D#5
+      - {pitch: 64, start_beat: 134.0, duration_beats: 0.9,  velocity: 70, track_id: right} # E4
+      - {pitch: 68, start_beat: 134.0, duration_beats: 0.9,  velocity: 73, track_id: right} # G#4
+      - {pitch: 71, start_beat: 134.0, duration_beats: 0.9,  velocity: 76, track_id: right} # B4
+      - {pitch: 76, start_beat: 134.0, duration_beats: 0.9,  velocity: 81, track_id: right} # E5
+      - {pitch: 64, start_beat: 135.0, duration_beats: 0.45, velocity: 70, track_id: right} # E4
+      - {pitch: 68, start_beat: 135.0, duration_beats: 0.45, velocity: 73, track_id: right} # G#4
+      - {pitch: 71, start_beat: 135.0, duration_beats: 0.45, velocity: 76, track_id: right} # B4
+      - {pitch: 75, start_beat: 135.0, duration_beats: 0.45, velocity: 80, track_id: right} # D#5
+      - {pitch: 64, start_beat: 135.5, duration_beats: 0.45, velocity: 70, track_id: right} # E4
+      - {pitch: 68, start_beat: 135.5, duration_beats: 0.45, velocity: 73, track_id: right} # G#4
+      - {pitch: 71, start_beat: 135.5, duration_beats: 0.45, velocity: 76, track_id: right} # B4
+      - {pitch: 75, start_beat: 135.5, duration_beats: 0.45, velocity: 80, track_id: right} # D#5
+
+      # 第 35 小节，beat 136-140
+      - {pitch: 75, start_beat: 136.0, duration_beats: 1.45, velocity: 76, track_id: right} # D#5
+      - {pitch: 83, start_beat: 136.0, duration_beats: 1.45, velocity: 83, track_id: right} # B5
+      - {pitch: 75, start_beat: 137.5, duration_beats: 0.45, velocity: 75, track_id: right} # D#5
+      - {pitch: 83, start_beat: 137.5, duration_beats: 0.45, velocity: 82, track_id: right} # B5
+      - {pitch: 75, start_beat: 138.0, duration_beats: 0.9,  velocity: 75, track_id: right} # D#5
+      - {pitch: 82, start_beat: 138.0, duration_beats: 0.9,  velocity: 82, track_id: right} # A#5
+      - {pitch: 75, start_beat: 139.0, duration_beats: 0.9,  velocity: 75, track_id: right} # D#5
+      - {pitch: 82, start_beat: 139.0, duration_beats: 0.9,  velocity: 82, track_id: right} # A#5
+
+      # 第 36 小节，beat 140-144
+      - {pitch: 64, start_beat: 140.0, duration_beats: 0.9,  velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 140.0, duration_beats: 0.9,  velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 140.0, duration_beats: 0.9,  velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 140.0, duration_beats: 0.9,  velocity: 82, track_id: right} # F#5
+      - {pitch: 70, start_beat: 141.0, duration_beats: 0.45, velocity: 76, track_id: right} # A#4
+      - {pitch: 80, start_beat: 141.0, duration_beats: 0.45, velocity: 82, track_id: right} # G#5
+      - {pitch: 71, start_beat: 141.5, duration_beats: 1.4,  velocity: 76, track_id: right} # B4
+      - {pitch: 83, start_beat: 141.5, duration_beats: 1.4,  velocity: 84, track_id: right} # B5
+      - {pitch: 70, start_beat: 143.0, duration_beats: 0.45, velocity: 74, track_id: right} # A#4
+      - {pitch: 82, start_beat: 143.0, duration_beats: 0.45, velocity: 82, track_id: right} # A#5
+      - {pitch: 68, start_beat: 143.5, duration_beats: 0.45, velocity: 73, track_id: right} # G#4
+      - {pitch: 80, start_beat: 143.5, duration_beats: 0.45, velocity: 81, track_id: right} # G#5
+
+      # 第 37 小节，beat 144-148
+      - {pitch: 64, start_beat: 144.0, duration_beats: 1.9,  velocity: 70, track_id: right} # E4
+      - {pitch: 68, start_beat: 144.0, duration_beats: 1.9,  velocity: 73, track_id: right} # G#4
+      - {pitch: 71, start_beat: 144.0, duration_beats: 1.9,  velocity: 76, track_id: right} # B4
+      - {pitch: 76, start_beat: 144.0, duration_beats: 1.9,  velocity: 81, track_id: right} # E5
+      # 第三拍休止
+      - {pitch: 66, start_beat: 147.0, duration_beats: 0.45, velocity: 72, track_id: right} # F#4
+      - {pitch: 75, start_beat: 147.0, duration_beats: 0.45, velocity: 78, track_id: right} # D#5
+      - {pitch: 66, start_beat: 147.5, duration_beats: 0.45, velocity: 72, track_id: right} # F#4
+      - {pitch: 76, start_beat: 147.5, duration_beats: 0.45, velocity: 79, track_id: right} # E5
+
+      # 第 38 小节，beat 148-152
+      - {pitch: 75, start_beat: 148.0, duration_beats: 1.45, velocity: 76, track_id: right} # D#5
+      - {pitch: 83, start_beat: 148.0, duration_beats: 1.45, velocity: 84, track_id: right} # B5
+      - {pitch: 64, start_beat: 149.5, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 71, start_beat: 149.5, duration_beats: 0.45, velocity: 76, track_id: right} # B4
+      - {pitch: 80, start_beat: 149.5, duration_beats: 0.45, velocity: 82, track_id: right} # G#5
+      - {pitch: 66, start_beat: 150.0, duration_beats: 1.9,  velocity: 71, track_id: right} # F#4
+      - {pitch: 78, start_beat: 150.0, duration_beats: 1.9,  velocity: 81, track_id: right} # F#5
+
+      # 第 39 小节，beat 152-156
+      - {pitch: 64, start_beat: 152.0, duration_beats: 3.9,  velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 152.0, duration_beats: 3.9,  velocity: 80, track_id: right} # E5
+
+      # 第 40 小节，beat 156-160
+      # 第一拍休止
+      - {pitch: 64, start_beat: 157.0, duration_beats: 0.9,  velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 157.0, duration_beats: 0.9,  velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 157.0, duration_beats: 0.9,  velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 157.0, duration_beats: 0.9,  velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 158.0, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 158.0, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 158.0, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 158.0, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 158.5, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 158.5, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 158.5, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 79, start_beat: 158.5, duration_beats: 0.45, velocity: 82, track_id: right} # G5
+      - {pitch: 63, start_beat: 159.0, duration_beats: 0.45, velocity: 70, track_id: right} # D#4
+      - {pitch: 66, start_beat: 159.0, duration_beats: 0.45, velocity: 73, track_id: right} # F#4
+      - {pitch: 70, start_beat: 159.0, duration_beats: 0.45, velocity: 76, track_id: right} # A#4
+      - {pitch: 78, start_beat: 159.0, duration_beats: 0.45, velocity: 81, track_id: right} # F#5
+      - {pitch: 64, start_beat: 159.5, duration_beats: 0.45, velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 159.5, duration_beats: 0.45, velocity: 80, track_id: right} # E5
+
+      # 第 41 小节，beat 160-164
+      - {pitch: 64, start_beat: 160.0, duration_beats: 0.9,  velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 160.0, duration_beats: 0.9,  velocity: 80, track_id: right} # E5
+      - {pitch: 64, start_beat: 161.0, duration_beats: 0.9,  velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 161.0, duration_beats: 0.9,  velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 161.0, duration_beats: 0.9,  velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 161.0, duration_beats: 0.9,  velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 162.0, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 162.0, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 162.0, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 162.0, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 162.5, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 162.5, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 162.5, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 79, start_beat: 162.5, duration_beats: 0.45, velocity: 82, track_id: right} # G5
+      - {pitch: 63, start_beat: 163.0, duration_beats: 0.45, velocity: 70, track_id: right} # D#4
+      - {pitch: 66, start_beat: 163.0, duration_beats: 0.45, velocity: 73, track_id: right} # F#4
+      - {pitch: 70, start_beat: 163.0, duration_beats: 0.45, velocity: 76, track_id: right} # A#4
+      - {pitch: 78, start_beat: 163.0, duration_beats: 0.45, velocity: 81, track_id: right} # F#5
+      - {pitch: 64, start_beat: 163.5, duration_beats: 0.45, velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 163.5, duration_beats: 0.45, velocity: 80, track_id: right} # E5
+
+      # 第 42 小节，beat 164-168
+      - {pitch: 64, start_beat: 164.0, duration_beats: 0.9,  velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 164.0, duration_beats: 0.9,  velocity: 80, track_id: right} # E5
+      - {pitch: 64, start_beat: 165.0, duration_beats: 0.9,  velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 165.0, duration_beats: 0.9,  velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 165.0, duration_beats: 0.9,  velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 165.0, duration_beats: 0.9,  velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 166.0, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 166.0, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 166.0, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 166.0, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 166.5, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 166.5, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 166.5, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 79, start_beat: 166.5, duration_beats: 0.45, velocity: 82, track_id: right} # G5
+      - {pitch: 63, start_beat: 167.0, duration_beats: 0.45, velocity: 70, track_id: right} # D#4
+      - {pitch: 66, start_beat: 167.0, duration_beats: 0.45, velocity: 73, track_id: right} # F#4
+      - {pitch: 70, start_beat: 167.0, duration_beats: 0.45, velocity: 76, track_id: right} # A#4
+      - {pitch: 78, start_beat: 167.0, duration_beats: 0.45, velocity: 81, track_id: right} # F#5
+      - {pitch: 64, start_beat: 167.5, duration_beats: 0.45, velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 167.5, duration_beats: 0.45, velocity: 80, track_id: right} # E5
+
+      # 第 43 小节，beat 168-172
+      - {pitch: 64, start_beat: 168.0, duration_beats: 0.9,  velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 168.0, duration_beats: 0.9,  velocity: 80, track_id: right} # E5
+      - {pitch: 64, start_beat: 169.0, duration_beats: 0.9,  velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 169.0, duration_beats: 0.9,  velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 169.0, duration_beats: 0.9,  velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 169.0, duration_beats: 0.9,  velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 170.0, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 170.0, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 170.0, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 170.0, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 170.5, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 170.5, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 170.5, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 79, start_beat: 170.5, duration_beats: 0.45, velocity: 82, track_id: right} # G5
+      - {pitch: 64, start_beat: 171.0, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 171.0, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 171.0, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 171.0, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 171.5, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 171.5, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 171.5, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 171.5, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+
+      # 第 44 小节，beat 172-176
+      - {pitch: 66, start_beat: 172.0, duration_beats: 0.45, velocity: 72, track_id: right} # F#4
+      - {pitch: 71, start_beat: 172.0, duration_beats: 0.45, velocity: 76, track_id: right} # B4
+      - {pitch: 78, start_beat: 172.0, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+      - {pitch: 68, start_beat: 172.5, duration_beats: 0.45, velocity: 73, track_id: right} # G#4
+      - {pitch: 71, start_beat: 172.5, duration_beats: 0.45, velocity: 76, track_id: right} # B4
+      - {pitch: 80, start_beat: 172.5, duration_beats: 0.45, velocity: 83, track_id: right} # G#5
+      - {pitch: 66, start_beat: 173.0, duration_beats: 0.9,  velocity: 72, track_id: right} # F#4
+      - {pitch: 71, start_beat: 173.0, duration_beats: 0.9,  velocity: 76, track_id: right} # B4
+      - {pitch: 78, start_beat: 173.0, duration_beats: 0.9,  velocity: 82, track_id: right} # F#5
+      - {pitch: 66, start_beat: 174.0, duration_beats: 0.9,  velocity: 72, track_id: right} # F#4
+      - {pitch: 71, start_beat: 174.0, duration_beats: 0.9,  velocity: 76, track_id: right} # B4
+      - {pitch: 78, start_beat: 174.0, duration_beats: 0.9,  velocity: 82, track_id: right} # F#5
+      - {pitch: 65, start_beat: 175.0, duration_beats: 0.45, velocity: 71, track_id: right} # F4
+      - {pitch: 70, start_beat: 175.0, duration_beats: 0.45, velocity: 75, track_id: right} # A#4
+      - {pitch: 77, start_beat: 175.0, duration_beats: 0.45, velocity: 81, track_id: right} # F5
+      - {pitch: 66, start_beat: 175.5, duration_beats: 0.45, velocity: 72, track_id: right} # F#4
+      - {pitch: 71, start_beat: 175.5, duration_beats: 0.45, velocity: 76, track_id: right} # B4
+      - {pitch: 78, start_beat: 175.5, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+
+      # 第 45 小节，beat 176-180
+      - {pitch: 64, start_beat: 176.0, duration_beats: 0.9,  velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 176.0, duration_beats: 0.9,  velocity: 80, track_id: right} # E5
+      - {pitch: 64, start_beat: 177.0, duration_beats: 0.9,  velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 177.0, duration_beats: 0.9,  velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 177.0, duration_beats: 0.9,  velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 177.0, duration_beats: 0.9,  velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 178.0, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 178.0, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 178.0, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 78, start_beat: 178.0, duration_beats: 0.45, velocity: 82, track_id: right} # F#5
+      - {pitch: 64, start_beat: 178.5, duration_beats: 0.45, velocity: 71, track_id: right} # E4
+      - {pitch: 68, start_beat: 178.5, duration_beats: 0.45, velocity: 74, track_id: right} # G#4
+      - {pitch: 71, start_beat: 178.5, duration_beats: 0.45, velocity: 77, track_id: right} # B4
+      - {pitch: 79, start_beat: 178.5, duration_beats: 0.45, velocity: 82, track_id: right} # G5
+      - {pitch: 65, start_beat: 179.0, duration_beats: 0.45, velocity: 71, track_id: right} # F4
+      - {pitch: 70, start_beat: 179.0, duration_beats: 0.45, velocity: 75, track_id: right} # A#4
+      - {pitch: 77, start_beat: 179.0, duration_beats: 0.45, velocity: 81, track_id: right} # F5
+      - {pitch: 64, start_beat: 179.5, duration_beats: 0.45, velocity: 70, track_id: right} # E4
+      - {pitch: 76, start_beat: 179.5, duration_beats: 0.45, velocity: 80, track_id: right} # E5
+
+    pedal: []
+
+  # ============================================================
+  # 左手：持续的八分音符分解和弦
+  # ============================================================
+  - track_id: left
+    name: Left Hand
+    gain_db: -8.0
+    pan: -0.12
+
+    notes:
+      # --------------------------------------------------------
+      # 第 1 小节：beat 0～4
+      # --------------------------------------------------------
+
+      - pitch: 47         # B2
+        start_beat: 0
+        duration_beats: 0.9
+        velocity: 63
+        track_id: left
+
+      - pitch: 51         # D#3
+        start_beat: 0.5
+        duration_beats: 0.45
+        velocity: 66
+        track_id: left
+
+      - pitch: 54         # F#3
+        start_beat: 1
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+
+      - pitch: 59         # B3
+        start_beat: 1.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      - pitch: 61         # C#4
+        start_beat: 2
+        duration_beats: 0.9
+        velocity: 73
+        track_id: left
+
+      - pitch: 52         # E3
+        start_beat: 2.5
+        duration_beats: 0.45
+        velocity: 64
+        track_id: left
+
+      - pitch: 54         # F#3
+        start_beat: 3
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+
+      - pitch: 59         # B3
+        start_beat: 3.5
+        duration_beats: 0.45
+        velocity: 70
+        track_id: left
+
+      # --------------------------------------------------------
+      # 第 2小节：beat 4～8
+      # --------------------------------------------------------
+
+      - pitch: 46         # A#2
+        start_beat: 4
+        duration_beats: 0.9
+        velocity: 62
+        track_id: left
+
+      - pitch: 49         # C#3
+        start_beat: 4.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+
+      - pitch: 54         # F#3
+        start_beat: 5
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+
+      - pitch: 59         # B3
+        start_beat: 5.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      - pitch: 59         # B3
+        start_beat: 6
+        duration_beats: 0.9
+        velocity: 72
+        track_id: left
+
+      - pitch: 52         # E3
+        start_beat: 6.5
+        duration_beats: 0.45
+        velocity: 64
+        track_id: left
+
+      - pitch: 54         # F#3
+        start_beat: 7
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+
+      - pitch: 59         # B3
+        start_beat: 7.5
+        duration_beats: 0.45
+        velocity: 70
+        track_id: left
+
+      # --------------------------------------------------------
+      # 第 3 小节：重复第 1 小节型
+      # --------------------------------------------------------
+
+      - pitch: 47
+        start_beat: 8
+        duration_beats: 0.9
+        velocity: 63
+        track_id: left
+
+      - pitch: 51
+        start_beat: 8.5
+        duration_beats: 0.45
+        velocity: 66
+        track_id: left
+
+      - pitch: 54
+        start_beat: 9
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+
+      - pitch: 59
+        start_beat: 9.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      - pitch: 61
+        start_beat: 10
+        duration_beats: 0.9
+        velocity: 73
+        track_id: left
+
+      - pitch: 52
+        start_beat: 10.5
+        duration_beats: 0.45
+        velocity: 64
+        track_id: left
+
+      - pitch: 54
+        start_beat: 11
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+
+      - pitch: 59
+        start_beat: 11.5
+        duration_beats: 0.45
+        velocity: 70
+        track_id: left
+
+      # --------------------------------------------------------
+      # 第 4 小节
+      # --------------------------------------------------------
+
+      - pitch: 52         # E3
+        start_beat: 12
+        duration_beats: 0.9
+        velocity: 63
+        track_id: left
+
+      - pitch: 56         # G#3
+        start_beat: 12.5
+        duration_beats: 0.45
+        velocity: 66
+        track_id: left
+
+      - pitch: 59         # B3
+        start_beat: 13
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+
+      - pitch: 61         # C#4
+        start_beat: 13.5
+        duration_beats: 0.45
+        velocity: 70
+        track_id: left
+
+      - pitch: 61         # C#4
+        start_beat: 14
+        duration_beats: 0.9
+        velocity: 71
+        track_id: left
+
+      - pitch: 54         # F#3
+        start_beat: 14.5
+        duration_beats: 0.45
+        velocity: 64
+        track_id: left
+
+      - pitch: 59         # B3
+        start_beat: 15
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+
+      - pitch: 63         # D#4
+        start_beat: 15.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      # --------------------------------------------------------
+      # 第 5 小节
+      # --------------------------------------------------------
+
+      - pitch: 47
+        start_beat: 16
+        duration_beats: 0.9
+        velocity: 63
+        track_id: left
+
+      - pitch: 51
+        start_beat: 16.5
+        duration_beats: 0.45
+        velocity: 66
+        track_id: left
+
+      - pitch: 54
+        start_beat: 17
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+
+      - pitch: 59
+        start_beat: 17.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      - pitch: 61
+        start_beat: 18
+        duration_beats: 0.9
+        velocity: 72
+        track_id: left
+
+      - pitch: 52
+        start_beat: 18.5
+        duration_beats: 0.45
+        velocity: 64
+        track_id: left
+
+      - pitch: 54
+        start_beat: 19
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+
+      - pitch: 59
+        start_beat: 19.5
+        duration_beats: 0.45
+        velocity: 70
+        track_id: left
+
+      # --------------------------------------------------------
+      # 第 6 小节
+      # --------------------------------------------------------
+
+      - pitch: 46
+        start_beat: 20
+        duration_beats: 0.9
+        velocity: 62
+        track_id: left
+
+      - pitch: 49
+        start_beat: 20.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+
+      - pitch: 54
+        start_beat: 21
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+
+      - pitch: 59
+        start_beat: 21.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      - pitch: 59
+        start_beat: 22
+        duration_beats: 0.9
+        velocity: 72
+        track_id: left
+
+      - pitch: 52
+        start_beat: 22.5
+        duration_beats: 0.45
+        velocity: 64
+        track_id: left
+
+      - pitch: 54
+        start_beat: 23
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+
+      - pitch: 59
+        start_beat: 23.5
+        duration_beats: 0.45
+        velocity: 70
+        track_id: left
+
+      # --------------------------------------------------------
+      # 第 7 小节
+      # --------------------------------------------------------
+
+      - pitch: 47
+        start_beat: 24
+        duration_beats: 0.9
+        velocity: 63
+        track_id: left
+
+      - pitch: 51
+        start_beat: 24.5
+        duration_beats: 0.45
+        velocity: 66
+        track_id: left
+
+      - pitch: 54
+        start_beat: 25
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+
+      - pitch: 59
+        start_beat: 25.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      - pitch: 61
+        start_beat: 26
+        duration_beats: 0.9
+        velocity: 72
+        track_id: left
+
+      - pitch: 52
+        start_beat: 26.5
+        duration_beats: 0.45
+        velocity: 64
+        track_id: left
+
+      - pitch: 54
+        start_beat: 27
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+
+      - pitch: 59
+        start_beat: 27.5
+        duration_beats: 0.45
+        velocity: 70
+        track_id: left
+
+      # --------------------------------------------------------
+      # 第 8 小节
+      # --------------------------------------------------------
+
+      - pitch: 52
+        start_beat: 28
+        duration_beats: 0.9
+        velocity: 63
+        track_id: left
+
+      - pitch: 56
+        start_beat: 28.5
+        duration_beats: 0.45
+        velocity: 66
+        track_id: left
+
+      - pitch: 59
+        start_beat: 29
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+
+      - pitch: 61
+        start_beat: 29.5
+        duration_beats: 0.45
+        velocity: 70
+        track_id: left
+
+      - pitch: 61
+        start_beat: 30
+        duration_beats: 0.9
+        velocity: 71
+        track_id: left
+
+      - pitch: 54
+        start_beat: 30.5
+        duration_beats: 0.45
+        velocity: 64
+        track_id: left
+
+      - pitch: 59
+        start_beat: 31
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+
+      - pitch: 63
+        start_beat: 31.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      # --------------------------------------------------------
+      # 第 9～15 小节
+      # 左手基本继续使用前面的循环型
+      # --------------------------------------------------------
+
+      # 第 9 小节
+      - pitch: 47
+        start_beat: 32
+        duration_beats: 0.9
+        velocity: 64
+        track_id: left
+      - pitch: 51
+        start_beat: 32.5
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+      - pitch: 54
+        start_beat: 33
+        duration_beats: 0.45
+        velocity: 69
+        track_id: left
+      - pitch: 59
+        start_beat: 33.5
+        duration_beats: 0.45
+        velocity: 72
+        track_id: left
+      - pitch: 61
+        start_beat: 34
+        duration_beats: 0.9
+        velocity: 73
+        track_id: left
+      - pitch: 52
+        start_beat: 34.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+      - pitch: 54
+        start_beat: 35
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+      - pitch: 59
+        start_beat: 35.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      # 第 10 小节
+      - pitch: 46
+        start_beat: 36
+        duration_beats: 0.9
+        velocity: 63
+        track_id: left
+      - pitch: 49
+        start_beat: 36.5
+        duration_beats: 0.45
+        velocity: 66
+        track_id: left
+      - pitch: 54
+        start_beat: 37
+        duration_beats: 0.45
+        velocity: 69
+        track_id: left
+      - pitch: 59
+        start_beat: 37.5
+        duration_beats: 0.45
+        velocity: 72
+        track_id: left
+      - pitch: 59
+        start_beat: 38
+        duration_beats: 0.9
+        velocity: 73
+        track_id: left
+      - pitch: 52
+        start_beat: 38.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+      - pitch: 54
+        start_beat: 39
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+      - pitch: 59
+        start_beat: 39.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      # 第 11 小节
+      - pitch: 47
+        start_beat: 40
+        duration_beats: 0.9
+        velocity: 64
+        track_id: left
+      - pitch: 51
+        start_beat: 40.5
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+      - pitch: 54
+        start_beat: 41
+        duration_beats: 0.45
+        velocity: 69
+        track_id: left
+      - pitch: 59
+        start_beat: 41.5
+        duration_beats: 0.45
+        velocity: 72
+        track_id: left
+      - pitch: 61
+        start_beat: 42
+        duration_beats: 0.9
+        velocity: 73
+        track_id: left
+      - pitch: 52
+        start_beat: 42.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+      - pitch: 54
+        start_beat: 43
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+      - pitch: 59
+        start_beat: 43.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      # 第 12 小节
+      - pitch: 52
+        start_beat: 44
+        duration_beats: 0.9
+        velocity: 64
+        track_id: left
+      - pitch: 56
+        start_beat: 44.5
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+      - pitch: 59
+        start_beat: 45
+        duration_beats: 0.45
+        velocity: 69
+        track_id: left
+      - pitch: 61
+        start_beat: 45.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+      - pitch: 61
+        start_beat: 46
+        duration_beats: 0.9
+        velocity: 72
+        track_id: left
+      - pitch: 54
+        start_beat: 46.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+      - pitch: 59
+        start_beat: 47
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+      - pitch: 63
+        start_beat: 47.5
+        duration_beats: 0.45
+        velocity: 72
+        track_id: left
+
+      # 第 13 小节
+      - pitch: 47
+        start_beat: 48
+        duration_beats: 0.9
+        velocity: 64
+        track_id: left
+      - pitch: 51
+        start_beat: 48.5
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+      - pitch: 54
+        start_beat: 49
+        duration_beats: 0.45
+        velocity: 69
+        track_id: left
+      - pitch: 59
+        start_beat: 49.5
+        duration_beats: 0.45
+        velocity: 72
+        track_id: left
+      - pitch: 61
+        start_beat: 50
+        duration_beats: 0.9
+        velocity: 73
+        track_id: left
+      - pitch: 52
+        start_beat: 50.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+      - pitch: 54
+        start_beat: 51
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+      - pitch: 59
+        start_beat: 51.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      # 第 14 小节
+      - pitch: 46
+        start_beat: 52
+        duration_beats: 0.9
+        velocity: 63
+        track_id: left
+      - pitch: 49
+        start_beat: 52.5
+        duration_beats: 0.45
+        velocity: 66
+        track_id: left
+      - pitch: 54
+        start_beat: 53
+        duration_beats: 0.45
+        velocity: 69
+        track_id: left
+      - pitch: 59
+        start_beat: 53.5
+        duration_beats: 0.45
+        velocity: 72
+        track_id: left
+      - pitch: 59
+        start_beat: 54
+        duration_beats: 0.9
+        velocity: 73
+        track_id: left
+      - pitch: 52
+        start_beat: 54.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+      - pitch: 54
+        start_beat: 55
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+      - pitch: 59
+        start_beat: 55.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+
+      # 第 15 小节
+      - pitch: 47
+        start_beat: 56
+        duration_beats: 0.9
+        velocity: 64
+        track_id: left
+      - pitch: 51
+        start_beat: 56.5
+        duration_beats: 0.45
+        velocity: 67
+        track_id: left
+      - pitch: 54
+        start_beat: 57
+        duration_beats: 0.45
+        velocity: 69
+        track_id: left
+      - pitch: 59
+        start_beat: 57.5
+        duration_beats: 0.45
+        velocity: 72
+        track_id: left
+      - pitch: 61
+        start_beat: 58
+        duration_beats: 0.9
+        velocity: 73
+        track_id: left
+      - pitch: 52
+        start_beat: 58.5
+        duration_beats: 0.45
+        velocity: 65
+        track_id: left
+      - pitch: 54
+        start_beat: 59
+        duration_beats: 0.45
+        velocity: 68
+        track_id: left
+      - pitch: 59
+        start_beat: 59.5
+        duration_beats: 0.45
+        velocity: 71
+        track_id: left
+         # 第 16 小节，beat 60-64
+      - {pitch: 52, start_beat: 60.0, duration_beats: 0.9,  velocity: 64, track_id: left} # E3
+      - {pitch: 56, start_beat: 60.5, duration_beats: 0.45, velocity: 67, track_id: left} # G#3
+      - {pitch: 59, start_beat: 61.0, duration_beats: 0.45, velocity: 69, track_id: left} # B3
+      - {pitch: 61, start_beat: 61.5, duration_beats: 0.45, velocity: 71, track_id: left} # C#4
+      - {pitch: 61, start_beat: 62.0, duration_beats: 0.9,  velocity: 72, track_id: left} # C#4
+      - {pitch: 54, start_beat: 62.5, duration_beats: 0.45, velocity: 65, track_id: left} # F#3
+      - {pitch: 59, start_beat: 63.0, duration_beats: 0.45, velocity: 68, track_id: left} # B3
+      - {pitch: 63, start_beat: 63.5, duration_beats: 0.45, velocity: 72, track_id: left} # D#4
+
+      # 第 17 小节，beat 64-68
+      - {pitch: 47, start_beat: 64.0, duration_beats: 0.9,  velocity: 63, track_id: left} # B2
+      - {pitch: 51, start_beat: 64.5, duration_beats: 0.45, velocity: 66, track_id: left} # D#3
+      - {pitch: 54, start_beat: 65.0, duration_beats: 0.45, velocity: 68, track_id: left} # F#3
+      - {pitch: 59, start_beat: 65.5, duration_beats: 0.45, velocity: 71, track_id: left} # B3
+      - {pitch: 61, start_beat: 66.0, duration_beats: 0.9,  velocity: 72, track_id: left} # C#4
+      - {pitch: 52, start_beat: 66.5, duration_beats: 0.45, velocity: 64, track_id: left} # E3
+      - {pitch: 54, start_beat: 67.0, duration_beats: 0.45, velocity: 67, track_id: left} # F#3
+      - {pitch: 59, start_beat: 67.5, duration_beats: 0.45, velocity: 70, track_id: left} # B3
+
+      # 第 18 小节，beat 68-72
+      - {pitch: 46, start_beat: 68.0, duration_beats: 0.9,  velocity: 62, track_id: left} # A#2
+      - {pitch: 49, start_beat: 68.5, duration_beats: 0.45, velocity: 65, track_id: left} # C#3
+      - {pitch: 54, start_beat: 69.0, duration_beats: 0.45, velocity: 68, track_id: left} # F#3
+      - {pitch: 59, start_beat: 69.5, duration_beats: 0.45, velocity: 71, track_id: left} # B3
+      - {pitch: 59, start_beat: 70.0, duration_beats: 0.9,  velocity: 72, track_id: left} # B3
+      - {pitch: 52, start_beat: 70.5, duration_beats: 0.45, velocity: 64, track_id: left} # E3
+      - {pitch: 54, start_beat: 71.0, duration_beats: 0.45, velocity: 67, track_id: left} # F#3
+      - {pitch: 59, start_beat: 71.5, duration_beats: 0.45, velocity: 70, track_id: left} # B3
+
+      # 第 19 小节，beat 72-76
+      - {pitch: 52, start_beat: 72.0, duration_beats: 0.9,  velocity: 64, track_id: left} # E3
+      - {pitch: 56, start_beat: 72.5, duration_beats: 0.45, velocity: 67, track_id: left} # G#3
+      - {pitch: 59, start_beat: 73.0, duration_beats: 0.45, velocity: 69, track_id: left} # B3
+      - {pitch: 61, start_beat: 73.5, duration_beats: 0.45, velocity: 71, track_id: left} # C#4
+      - {pitch: 61, start_beat: 74.0, duration_beats: 0.9,  velocity: 72, track_id: left} # C#4
+      - {pitch: 54, start_beat: 74.5, duration_beats: 0.45, velocity: 65, track_id: left} # F#3
+      - {pitch: 59, start_beat: 75.0, duration_beats: 0.45, velocity: 68, track_id: left} # B3
+      - {pitch: 61, start_beat: 75.5, duration_beats: 0.45, velocity: 71, track_id: left} # C#4
+
+      # 第 20 小节，beat 76-80
+      - {pitch: 49, start_beat: 76.0, duration_beats: 0.9,  velocity: 63, track_id: left} # C#3
+      - {pitch: 52, start_beat: 76.5, duration_beats: 0.45, velocity: 66, track_id: left} # E3
+      - {pitch: 56, start_beat: 77.0, duration_beats: 0.45, velocity: 68, track_id: left} # G#3
+      - {pitch: 59, start_beat: 77.5, duration_beats: 0.45, velocity: 71, track_id: left} # B3
+      - {pitch: 59, start_beat: 78.0, duration_beats: 0.9,  velocity: 72, track_id: left} # B3
+      - {pitch: 54, start_beat: 78.5, duration_beats: 0.45, velocity: 65, track_id: left} # F#3
+      - {pitch: 56, start_beat: 79.0, duration_beats: 0.45, velocity: 67, track_id: left} # G#3
+      - {pitch: 61, start_beat: 79.5, duration_beats: 0.45, velocity: 71, track_id: left} # C#4
+
+      # 第 21 小节，beat 80-84
+      - {pitch: 47, start_beat: 80.0, duration_beats: 0.9,  velocity: 63, track_id: left} # B2
+      - {pitch: 51, start_beat: 80.5, duration_beats: 0.45, velocity: 66, track_id: left} # D#3
+      - {pitch: 54, start_beat: 81.0, duration_beats: 0.45, velocity: 68, track_id: left} # F#3
+      - {pitch: 59, start_beat: 81.5, duration_beats: 0.45, velocity: 71, track_id: left} # B3
+      - {pitch: 61, start_beat: 82.0, duration_beats: 0.9,  velocity: 72, track_id: left} # C#4
+      - {pitch: 52, start_beat: 82.5, duration_beats: 0.45, velocity: 64, track_id: left} # E3
+      - {pitch: 54, start_beat: 83.0, duration_beats: 0.45, velocity: 67, track_id: left} # F#3
+      - {pitch: 59, start_beat: 83.5, duration_beats: 0.45, velocity: 70, track_id: left} # B3
+
+      # 第 22 小节，beat 84-88
+      - {pitch: 46, start_beat: 84.0, duration_beats: 0.9,  velocity: 62, track_id: left} # A#2
+      - {pitch: 49, start_beat: 84.5, duration_beats: 0.45, velocity: 65, track_id: left} # C#3
+      - {pitch: 54, start_beat: 85.0, duration_beats: 0.45, velocity: 68, track_id: left} # F#3
+      - {pitch: 59, start_beat: 85.5, duration_beats: 0.45, velocity: 71, track_id: left} # B3
+      - {pitch: 59, start_beat: 86.0, duration_beats: 0.9,  velocity: 72, track_id: left} # B3
+      - {pitch: 52, start_beat: 86.5, duration_beats: 0.45, velocity: 64, track_id: left} # E3
+      - {pitch: 54, start_beat: 87.0, duration_beats: 0.45, velocity: 67, track_id: left} # F#3
+      - {pitch: 59, start_beat: 87.5, duration_beats: 0.45, velocity: 70, track_id: left} # B3
+
+      # 第 23 小节，beat 88-92
+      - {pitch: 52, start_beat: 88.0, duration_beats: 0.9,  velocity: 64, track_id: left} # E3
+      - {pitch: 56, start_beat: 88.5, duration_beats: 0.45, velocity: 67, track_id: left} # G#3
+      - {pitch: 59, start_beat: 89.0, duration_beats: 0.45, velocity: 69, track_id: left} # B3
+      - {pitch: 61, start_beat: 89.5, duration_beats: 0.45, velocity: 71, track_id: left} # C#4
+      - {pitch: 61, start_beat: 90.0, duration_beats: 0.9,  velocity: 72, track_id: left} # C#4
+      - {pitch: 54, start_beat: 90.5, duration_beats: 0.45, velocity: 65, track_id: left} # F#3
+      - {pitch: 59, start_beat: 91.0, duration_beats: 0.45, velocity: 68, track_id: left} # B3
+      - {pitch: 61, start_beat: 91.5, duration_beats: 0.45, velocity: 71, track_id: left} # C#4
+
+      # 第 24 小节，beat 92-96
+      - {pitch: 52, start_beat: 92.0, duration_beats: 0.9,  velocity: 64, track_id: left} # E3
+      - {pitch: 56, start_beat: 92.5, duration_beats: 0.45, velocity: 67, track_id: left} # G#3
+      - {pitch: 59, start_beat: 93.0, duration_beats: 0.45, velocity: 69, track_id: left} # B3
+      - {pitch: 61, start_beat: 93.5, duration_beats: 0.45, velocity: 71, track_id: left} # C#4
+      - {pitch: 61, start_beat: 94.0, duration_beats: 0.9,  velocity: 72, track_id: left} # C#4
+      - {pitch: 54, start_beat: 94.5, duration_beats: 0.45, velocity: 65, track_id: left} # F#3
+      - {pitch: 59, start_beat: 95.0, duration_beats: 0.45, velocity: 68, track_id: left} # B3
+      - {pitch: 63, start_beat: 95.5, duration_beats: 0.45, velocity: 72, track_id: left} # D#4
+
+      # 第 25 小节，beat 96-100，低音谱号
+      - {pitch: 40, start_beat: 96.0, duration_beats: 0.9,  velocity: 68, track_id: left} # E2
+      - {pitch: 47, start_beat: 96.5, duration_beats: 0.45, velocity: 71, track_id: left} # B2
+      - {pitch: 52, start_beat: 97.0, duration_beats: 0.45, velocity: 73, track_id: left} # E3
+      - {pitch: 56, start_beat: 97.5, duration_beats: 0.45, velocity: 76, track_id: left} # G#3
+      - {pitch: 56, start_beat: 98.0, duration_beats: 0.9,  velocity: 77, track_id: left} # G#3
+      - {pitch: 47, start_beat: 98.5, duration_beats: 0.45, velocity: 69, track_id: left} # B2
+      - {pitch: 52, start_beat: 99.0, duration_beats: 0.45, velocity: 72, track_id: left} # E3
+      - {pitch: 56, start_beat: 99.5, duration_beats: 0.45, velocity: 75, track_id: left} # G#3
+
+      # 第 26 小节，beat 100-104
+      - {pitch: 42, start_beat: 100.0, duration_beats: 0.9,  velocity: 68, track_id: left} # F#2
+      - {pitch: 49, start_beat: 100.5, duration_beats: 0.45, velocity: 71, track_id: left} # C#3
+      - {pitch: 54, start_beat: 101.0, duration_beats: 0.45, velocity: 73, track_id: left} # F#3
+      - {pitch: 58, start_beat: 101.5, duration_beats: 0.45, velocity: 76, track_id: left} # A#3
+      - {pitch: 58, start_beat: 102.0, duration_beats: 0.9,  velocity: 77, track_id: left} # A#3
+      - {pitch: 49, start_beat: 102.5, duration_beats: 0.45, velocity: 69, track_id: left} # C#3
+      - {pitch: 54, start_beat: 103.0, duration_beats: 0.45, velocity: 72, track_id: left} # F#3
+      - {pitch: 58, start_beat: 103.5, duration_beats: 0.45, velocity: 75, track_id: left} # A#3
+
+      # 第 27 小节，beat 104-108
+      - {pitch: 40, start_beat: 104.0, duration_beats: 0.9,  velocity: 68, track_id: left} # E2
+      - {pitch: 47, start_beat: 104.5, duration_beats: 0.45, velocity: 71, track_id: left} # B2
+      - {pitch: 52, start_beat: 105.0, duration_beats: 0.45, velocity: 73, track_id: left} # E3
+      - {pitch: 56, start_beat: 105.5, duration_beats: 0.45, velocity: 76, track_id: left} # G#3
+      - {pitch: 56, start_beat: 106.0, duration_beats: 0.9,  velocity: 77, track_id: left} # G#3
+      - {pitch: 47, start_beat: 106.5, duration_beats: 0.45, velocity: 69, track_id: left} # B2
+      - {pitch: 52, start_beat: 107.0, duration_beats: 0.45, velocity: 72, track_id: left} # E3
+      - {pitch: 56, start_beat: 107.5, duration_beats: 0.45, velocity: 75, track_id: left} # G#3
+
+      # 第 28 小节，beat 108-112
+      - {pitch: 40, start_beat: 108.0, duration_beats: 0.9,  velocity: 68, track_id: left} # E2
+      - {pitch: 47, start_beat: 108.5, duration_beats: 0.45, velocity: 71, track_id: left} # B2
+      - {pitch: 52, start_beat: 109.0, duration_beats: 0.45, velocity: 73, track_id: left} # E3
+      - {pitch: 56, start_beat: 109.5, duration_beats: 0.45, velocity: 76, track_id: left} # G#3
+      - {pitch: 56, start_beat: 110.0, duration_beats: 0.9,  velocity: 77, track_id: left} # G#3
+      - {pitch: 49, start_beat: 110.5, duration_beats: 0.45, velocity: 70, track_id: left} # C#3
+      - {pitch: 52, start_beat: 111.0, duration_beats: 0.45, velocity: 72, track_id: left} # E3
+      - {pitch: 59, start_beat: 111.5, duration_beats: 0.45, velocity: 76, track_id: left} # B3
+
+      # 第 29 小节，beat 112-116
+      - {pitch: 40, start_beat: 112.0, duration_beats: 0.9,  velocity: 68, track_id: left} # E2
+      - {pitch: 47, start_beat: 112.5, duration_beats: 0.45, velocity: 71, track_id: left} # B2
+      - {pitch: 52, start_beat: 113.0, duration_beats: 0.45, velocity: 73, track_id: left} # E3
+      - {pitch: 56, start_beat: 113.5, duration_beats: 0.45, velocity: 76, track_id: left} # G#3
+      - {pitch: 56, start_beat: 114.0, duration_beats: 0.9,  velocity: 77, track_id: left} # G#3
+      - {pitch: 47, start_beat: 114.5, duration_beats: 0.45, velocity: 69, track_id: left} # B2
+      - {pitch: 52, start_beat: 115.0, duration_beats: 0.45, velocity: 72, track_id: left} # E3
+      - {pitch: 56, start_beat: 115.5, duration_beats: 0.45, velocity: 75, track_id: left} # G#3
+
+      # 第 30 小节，beat 116-120
+      - {pitch: 40, start_beat: 116.0, duration_beats: 0.9,  velocity: 68, track_id: left} # E2
+      - {pitch: 47, start_beat: 116.5, duration_beats: 0.45, velocity: 71, track_id: left} # B2
+      - {pitch: 52, start_beat: 117.0, duration_beats: 0.45, velocity: 73, track_id: left} # E3
+      - {pitch: 56, start_beat: 117.5, duration_beats: 0.45, velocity: 76, track_id: left} # G#3
+      - {pitch: 56, start_beat: 118.0, duration_beats: 0.9,  velocity: 77, track_id: left} # G#3
+      - {pitch: 49, start_beat: 118.5, duration_beats: 0.45, velocity: 70, track_id: left} # C#3
+      - {pitch: 52, start_beat: 119.0, duration_beats: 0.45, velocity: 72, track_id: left} # E3
+      - {pitch: 59, start_beat: 119.5, duration_beats: 0.45, velocity: 76, track_id: left} # B3
+       # ========================================================
+      # 第 31 小节，beat 120-124
+      # ========================================================
+      - {pitch: 47, start_beat: 120.0, duration_beats: 0.9,  velocity: 66, track_id: left} # B2
+      - {pitch: 51, start_beat: 120.5, duration_beats: 0.45, velocity: 68, track_id: left} # D#3
+      - {pitch: 54, start_beat: 121.0, duration_beats: 0.45, velocity: 70, track_id: left} # F#3
+      - {pitch: 59, start_beat: 121.5, duration_beats: 0.45, velocity: 73, track_id: left} # B3
+      - {pitch: 61, start_beat: 122.0, duration_beats: 0.9,  velocity: 75, track_id: left} # C#4
+      - {pitch: 59, start_beat: 122.5, duration_beats: 0.45, velocity: 72, track_id: left} # B3
+      - {pitch: 51, start_beat: 123.0, duration_beats: 0.45, velocity: 67, track_id: left} # D#3
+      - {pitch: 54, start_beat: 123.5, duration_beats: 0.45, velocity: 70, track_id: left} # F#3
+
+      # ========================================================
+      # 第 32 小节，beat 124-128
+      # ========================================================
+      - {pitch: 40, start_beat: 124.0, duration_beats: 0.9,  velocity: 64, track_id: left} # E2
+      - {pitch: 47, start_beat: 124.5, duration_beats: 0.45, velocity: 67, track_id: left} # B2
+      - {pitch: 52, start_beat: 125.0, duration_beats: 0.45, velocity: 70, track_id: left} # E3
+      - {pitch: 56, start_beat: 125.5, duration_beats: 0.45, velocity: 73, track_id: left} # G#3
+      - {pitch: 56, start_beat: 126.0, duration_beats: 0.9,  velocity: 74, track_id: left} # G#3
+      - {pitch: 40, start_beat: 126.5, duration_beats: 0.45, velocity: 63, track_id: left} # E2
+      - {pitch: 54, start_beat: 127.0, duration_beats: 0.45, velocity: 69, track_id: left} # F#3
+      - {pitch: 56, start_beat: 127.5, duration_beats: 0.45, velocity: 72, track_id: left} # G#3
+
+      # ========================================================
+      # 第 33 小节，beat 128-132
+      # ========================================================
+      - {pitch: 35, start_beat: 128.0, duration_beats: 0.9,  velocity: 64, track_id: left} # B1
+      - {pitch: 47, start_beat: 128.5, duration_beats: 0.45, velocity: 67, track_id: left} # B2
+      - {pitch: 51, start_beat: 129.0, duration_beats: 0.45, velocity: 69, track_id: left} # D#3
+      - {pitch: 54, start_beat: 129.5, duration_beats: 0.45, velocity: 72, track_id: left} # F#3
+      - {pitch: 59, start_beat: 130.0, duration_beats: 0.9,  velocity: 75, track_id: left} # B3
+      - {pitch: 59, start_beat: 130.5, duration_beats: 0.45, velocity: 73, track_id: left} # B3
+      - {pitch: 51, start_beat: 131.0, duration_beats: 0.45, velocity: 68, track_id: left} # D#3
+      - {pitch: 54, start_beat: 131.5, duration_beats: 0.45, velocity: 71, track_id: left} # F#3
+
+      # ========================================================
+      # 第 34 小节，beat 132-136
+      # ========================================================
+      - {pitch: 35, start_beat: 132.0, duration_beats: 0.9,  velocity: 64, track_id: left} # B1
+      - {pitch: 47, start_beat: 132.5, duration_beats: 0.45, velocity: 67, track_id: left} # B2
+      - {pitch: 51, start_beat: 133.0, duration_beats: 0.45, velocity: 69, track_id: left} # D#3
+      - {pitch: 54, start_beat: 133.5, duration_beats: 0.45, velocity: 72, track_id: left} # F#3
+      - {pitch: 59, start_beat: 134.0, duration_beats: 0.9,  velocity: 75, track_id: left} # B3
+      - {pitch: 59, start_beat: 134.5, duration_beats: 0.45, velocity: 73, track_id: left} # B3
+      - {pitch: 51, start_beat: 135.0, duration_beats: 0.45, velocity: 68, track_id: left} # D#3
+      - {pitch: 54, start_beat: 135.5, duration_beats: 0.45, velocity: 71, track_id: left} # F#3
+
+      # ========================================================
+      # 第 35 小节，beat 136-140
+      # ========================================================
+      - {pitch: 35, start_beat: 136.0, duration_beats: 0.9,  velocity: 64, track_id: left} # B1
+      - {pitch: 47, start_beat: 136.5, duration_beats: 0.45, velocity: 67, track_id: left} # B2
+      - {pitch: 51, start_beat: 137.0, duration_beats: 0.45, velocity: 69, track_id: left} # D#3
+      - {pitch: 54, start_beat: 137.5, duration_beats: 0.45, velocity: 72, track_id: left} # F#3
+      - {pitch: 56, start_beat: 138.0, duration_beats: 0.9,  velocity: 74, track_id: left} # G#3
+      - {pitch: 56, start_beat: 138.5, duration_beats: 0.45, velocity: 72, track_id: left} # G#3
+      - {pitch: 51, start_beat: 139.0, duration_beats: 0.45, velocity: 68, track_id: left} # D#3
+      - {pitch: 54, start_beat: 139.5, duration_beats: 0.45, velocity: 71, track_id: left} # F#3
+
+      # ========================================================
+      # 第 36 小节，beat 140-144
+      # ========================================================
+      - {pitch: 40, start_beat: 140.0, duration_beats: 0.9,  velocity: 65, track_id: left} # E2
+      - {pitch: 51, start_beat: 140.5, duration_beats: 0.45, velocity: 68, track_id: left} # D#3
+      - {pitch: 52, start_beat: 141.0, duration_beats: 0.45, velocity: 70, track_id: left} # E3
+      - {pitch: 56, start_beat: 141.5, duration_beats: 0.45, velocity: 73, track_id: left} # G#3
+      - {pitch: 59, start_beat: 142.0, duration_beats: 0.9,  velocity: 75, track_id: left} # B3
+      - {pitch: 59, start_beat: 142.5, duration_beats: 0.45, velocity: 73, track_id: left} # B3
+      - {pitch: 52, start_beat: 143.0, duration_beats: 0.45, velocity: 68, track_id: left} # E3
+      - {pitch: 52, start_beat: 143.5, duration_beats: 0.45, velocity: 70, track_id: left} # E3
+
+      # ========================================================
+      # 第 37 小节，beat 144-148
+      # 低音与右侧和弦交替
+      # ========================================================
+      - {pitch: 35, start_beat: 144.0, duration_beats: 0.45, velocity: 70, track_id: left} # B1
+      - {pitch: 47, start_beat: 144.0, duration_beats: 0.45, velocity: 73, track_id: left} # B2
+
+      - {pitch: 42, start_beat: 145.0, duration_beats: 0.45, velocity: 67, track_id: left} # F#2
+      - {pitch: 54, start_beat: 145.5, duration_beats: 0.9,  velocity: 73, track_id: left} # F#3
+      - {pitch: 59, start_beat: 145.5, duration_beats: 0.9,  velocity: 77, track_id: left} # B3
+
+      - {pitch: 42, start_beat: 147.0, duration_beats: 0.45, velocity: 67, track_id: left} # F#2
+      - {pitch: 54, start_beat: 147.5, duration_beats: 0.45, velocity: 73, track_id: left} # F#3
+      - {pitch: 59, start_beat: 147.5, duration_beats: 0.45, velocity: 77, track_id: left} # B3
+
+      # ========================================================
+      # 第 38 小节，beat 148-152
+      # ========================================================
+      - {pitch: 33, start_beat: 148.0, duration_beats: 0.45, velocity: 70, track_id: left} # A1
+      - {pitch: 45, start_beat: 148.0, duration_beats: 0.45, velocity: 73, track_id: left} # A2
+
+      - {pitch: 45, start_beat: 149.0, duration_beats: 0.45, velocity: 67, track_id: left} # A2
+      - {pitch: 56, start_beat: 149.5, duration_beats: 0.9,  velocity: 73, track_id: left} # G#3
+      - {pitch: 61, start_beat: 149.5, duration_beats: 0.9,  velocity: 77, track_id: left} # C#4
+
+      - {pitch: 45, start_beat: 151.0, duration_beats: 0.45, velocity: 67, track_id: left} # A2
+      - {pitch: 56, start_beat: 151.5, duration_beats: 0.45, velocity: 73, track_id: left} # G#3
+      - {pitch: 61, start_beat: 151.5, duration_beats: 0.45, velocity: 77, track_id: left} # C#4
+
+      # ========================================================
+      # 第 39 小节，beat 152-156
+      # ========================================================
+      - {pitch: 35, start_beat: 152.0, duration_beats: 0.45, velocity: 70, track_id: left} # B1
+      - {pitch: 47, start_beat: 152.0, duration_beats: 0.45, velocity: 73, track_id: left} # B2
+
+      - {pitch: 47, start_beat: 153.0, duration_beats: 0.45, velocity: 67, track_id: left} # B2
+      - {pitch: 54, start_beat: 153.5, duration_beats: 0.9,  velocity: 72, track_id: left} # F#3
+      - {pitch: 59, start_beat: 153.5, duration_beats: 0.9,  velocity: 75, track_id: left} # B3
+      - {pitch: 63, start_beat: 153.5, duration_beats: 0.9,  velocity: 78, track_id: left} # D#4
+
+      - {pitch: 47, start_beat: 155.0, duration_beats: 0.45, velocity: 67, track_id: left} # B2
+      - {pitch: 47, start_beat: 155.5, duration_beats: 0.45, velocity: 69, track_id: left} # B2
+      - {pitch: 35, start_beat: 155.5, duration_beats: 0.45, velocity: 72, track_id: left} # B1
+
+      # ========================================================
+      # 第 40 小节，beat 156-160
+      # ========================================================
+      - {pitch: 35, start_beat: 156.0, duration_beats: 1.45, velocity: 72, track_id: left} # B1
+      - {pitch: 47, start_beat: 156.0, duration_beats: 1.45, velocity: 75, track_id: left} # B2
+
+      - {pitch: 35, start_beat: 158.0, duration_beats: 1.45, velocity: 72, track_id: left} # B1
+      - {pitch: 47, start_beat: 158.0, duration_beats: 1.45, velocity: 75, track_id: left} # B2
+
+      - {pitch: 35, start_beat: 159.5, duration_beats: 0.45, velocity: 70, track_id: left} # B1
+      - {pitch: 47, start_beat: 159.5, duration_beats: 0.45, velocity: 73, track_id: left} # B2
+
+      # ========================================================
+      # 第 41 小节，beat 160-164
+      # ========================================================
+      - {pitch: 35, start_beat: 160.0, duration_beats: 0.9,  velocity: 71, track_id: left} # B1
+      - {pitch: 47, start_beat: 160.0, duration_beats: 0.9,  velocity: 74, track_id: left} # B2
+
+      - {pitch: 47, start_beat: 161.0, duration_beats: 0.45, velocity: 68, track_id: left} # B2
+      - {pitch: 54, start_beat: 161.5, duration_beats: 0.9,  velocity: 73, track_id: left} # F#3
+      - {pitch: 59, start_beat: 161.5, duration_beats: 0.9,  velocity: 76, track_id: left} # B3
+      - {pitch: 63, start_beat: 161.5, duration_beats: 0.9,  velocity: 79, track_id: left} # D#4
+
+      - {pitch: 35, start_beat: 163.0, duration_beats: 0.45, velocity: 70, track_id: left} # B1
+      - {pitch: 47, start_beat: 163.0, duration_beats: 0.45, velocity: 73, track_id: left} # B2
+
+      # ========================================================
+      # 第 42 小节，beat 164-168
+      # ========================================================
+      - {pitch: 28, start_beat: 164.0, duration_beats: 0.9,  velocity: 72, track_id: left} # E1
+      - {pitch: 40, start_beat: 164.0, duration_beats: 0.9,  velocity: 75, track_id: left} # E2
+
+      - {pitch: 40, start_beat: 165.0, duration_beats: 0.45, velocity: 67, track_id: left} # E2
+      - {pitch: 52, start_beat: 165.5, duration_beats: 0.9,  velocity: 72, track_id: left} # E3
+      - {pitch: 56, start_beat: 165.5, duration_beats: 0.9,  velocity: 75, track_id: left} # G#3
+      - {pitch: 59, start_beat: 165.5, duration_beats: 0.9,  velocity: 78, track_id: left} # B3
+
+      - {pitch: 40, start_beat: 167.0, duration_beats: 0.45, velocity: 67, track_id: left} # E2
+      - {pitch: 52, start_beat: 167.5, duration_beats: 0.45, velocity: 72, track_id: left} # E3
+      - {pitch: 56, start_beat: 167.5, duration_beats: 0.45, velocity: 75, track_id: left} # G#3
+      - {pitch: 59, start_beat: 167.5, duration_beats: 0.45, velocity: 78, track_id: left} # B3
+
+      # ========================================================
+      # 第 43 小节，beat 168-172
+      # ========================================================
+      - {pitch: 35, start_beat: 168.0, duration_beats: 0.9,  velocity: 71, track_id: left} # B1
+      - {pitch: 47, start_beat: 168.0, duration_beats: 0.9,  velocity: 74, track_id: left} # B2
+
+      - {pitch: 47, start_beat: 169.0, duration_beats: 0.45, velocity: 68, track_id: left} # B2
+      - {pitch: 51, start_beat: 169.5, duration_beats: 0.45, velocity: 71, track_id: left} # D#3
+      - {pitch: 54, start_beat: 170.0, duration_beats: 0.9,  velocity: 74, track_id: left} # F#3
+      - {pitch: 59, start_beat: 170.0, duration_beats: 0.9,  velocity: 77, track_id: left} # B3
+
+      - {pitch: 35, start_beat: 171.0, duration_beats: 0.45, velocity: 70, track_id: left} # B1
+      - {pitch: 47, start_beat: 171.0, duration_beats: 0.45, velocity: 73, track_id: left} # B2
+      - {pitch: 51, start_beat: 171.5, duration_beats: 0.45, velocity: 70, track_id: left} # D#3
+
+      # ========================================================
+      # 第 44 小节，beat 172-176
+      # 本小节有临时升号
+      # ========================================================
+      - {pitch: 33, start_beat: 172.0, duration_beats: 1.45, velocity: 72, track_id: left} # A1
+      - {pitch: 45, start_beat: 172.0, duration_beats: 1.45, velocity: 75, track_id: left} # A2
+
+      - {pitch: 45, start_beat: 174.0, duration_beats: 0.45, velocity: 68, track_id: left} # A2
+      - {pitch: 55, start_beat: 174.5, duration_beats: 0.9,  velocity: 73, track_id: left} # G3
+      - {pitch: 58, start_beat: 174.5, duration_beats: 0.9,  velocity: 76, track_id: left} # A#3
+      - {pitch: 61, start_beat: 174.5, duration_beats: 0.9,  velocity: 79, track_id: left} # C#4
+
+      - {pitch: 33, start_beat: 175.5, duration_beats: 0.45, velocity: 70, track_id: left} # A1
+      - {pitch: 45, start_beat: 175.5, duration_beats: 0.45, velocity: 73, track_id: left} # A2
+
+      # ========================================================
+      # 第 45 小节，beat 176-180
+      # ========================================================
+      - {pitch: 35, start_beat: 176.0, duration_beats: 0.9,  velocity: 72, track_id: left} # B1
+      - {pitch: 47, start_beat: 176.0, duration_beats: 0.9,  velocity: 75, track_id: left} # B2
+
+      - {pitch: 47, start_beat: 177.0, duration_beats: 0.45, velocity: 68, track_id: left} # B2
+      - {pitch: 54, start_beat: 177.5, duration_beats: 0.9,  velocity: 73, track_id: left} # F#3
+      - {pitch: 59, start_beat: 177.5, duration_beats: 0.9,  velocity: 76, track_id: left} # B3
+      - {pitch: 63, start_beat: 177.5, duration_beats: 0.9,  velocity: 79, track_id: left} # D#4
+
+      - {pitch: 35, start_beat: 179.0, duration_beats: 0.45, velocity: 70, track_id: left} # B1
+      - {pitch: 47, start_beat: 179.0, duration_beats: 0.45, velocity: 73, track_id: left} # B2
+
+    pedal: []

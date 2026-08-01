@@ -1,0 +1,127 @@
+sample_rate: 48000
+
+tempo:
+  # 第 0 拍开始：120 BPM
+  - beat: 0
+    bpm: 120
+
+  # 第 4 拍开始：加速到 180 BPM
+  - beat: 4
+    bpm: 180
+
+  # 第 8 拍开始：减速到 90 BPM
+  - beat: 8
+    bpm: 90
+
+tracks:
+  - track_id: right
+    name: Right Hand
+    gain_db: -4.0
+    pan: 0.15
+
+    notes:
+      # 120 BPM 区间
+      - pitch: 60
+        start_beat: 0
+        duration_beats: 1
+        velocity: 90
+        track_id: right
+
+      - pitch: 62
+        start_beat: 1
+        duration_beats: 1
+        velocity: 92
+        track_id: right
+
+      - pitch: 64
+        start_beat: 2
+        duration_beats: 1
+        velocity: 94
+        track_id: right
+
+      - pitch: 65
+        start_beat: 3
+        duration_beats: 1
+        velocity: 96
+        track_id: right
+
+      # 从第 4 拍开始变为 180 BPM
+      - pitch: 67
+        start_beat: 4
+        duration_beats: 1
+        velocity: 100
+        track_id: right
+
+      - pitch: 69
+        start_beat: 5
+        duration_beats: 1
+        velocity: 102
+        track_id: right
+
+      - pitch: 71
+        start_beat: 6
+        duration_beats: 1
+        velocity: 104
+        track_id: right
+
+      - pitch: 72
+        start_beat: 7
+        duration_beats: 1
+        velocity: 106
+        track_id: right
+
+      # 从第 8 拍开始减速为 90 BPM
+      - pitch: 72
+        start_beat: 8
+        duration_beats: 1
+        velocity: 100
+        track_id: right
+
+      - pitch: 71
+        start_beat: 9
+        duration_beats: 1
+        velocity: 96
+        track_id: right
+
+      - pitch: 69
+        start_beat: 10
+        duration_beats: 1
+        velocity: 92
+        track_id: right
+
+      - pitch: 67
+        start_beat: 11
+        duration_beats: 1
+        velocity: 88
+        track_id: right
+
+    pedal: []
+
+  - track_id: left
+    name: Left Hand
+    gain_db: -7.0
+    pan: -0.15
+
+    notes:
+      # 120 BPM 区间
+      - pitch: 48
+        start_beat: 0
+        duration_beats: 4
+        velocity: 74
+        track_id: left
+
+      # 180 BPM 区间
+      - pitch: 43
+        start_beat: 4
+        duration_beats: 4
+        velocity: 80
+        track_id: left
+
+      # 90 BPM 区间
+      - pitch: 45
+        start_beat: 8
+        duration_beats: 4
+        velocity: 76
+        track_id: left
+
+    pedal: []

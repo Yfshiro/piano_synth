@@ -1,0 +1,15 @@
+numpy<3,>=1.26
+scipy<2,>=1.12
+soundfile<1,>=0.12
+librosa<1,>=0.10.2
+pydantic<3,>=2.6
+PyYAML<7,>=6
+typer<1,>=0.12
+rich<15,>=13
+soxr<1,>=0.3.7
+
+[dev]
+pytest<9,>=8
+pytest-cov<7,>=5
+ruff<1,>=0.5
+mypy<2,>=1.10

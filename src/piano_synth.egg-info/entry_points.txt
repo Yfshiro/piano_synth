@@ -1,0 +1,2 @@
+[console_scripts]
+piano-synth = piano_synth.cli:app

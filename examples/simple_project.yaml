@@ -1,0 +1,60 @@
+sample_rate: 48000
+
+tempo:
+  - beat: 0.0
+    bpm: 90.0
+  - beat: 8.0
+    bpm: 110.0
+
+tracks:
+  - track_id: right
+    name: Right Hand
+    gain_db: -1.5
+    pan: 0.2
+    notes:
+      - pitch: 60
+        start_beat: 0.0
+        duration_beats: 1.0
+        velocity: 82
+        track_id: right
+      - pitch: 64
+        start_beat: 1.0
+        duration_beats: 1.0
+        velocity: 86
+        track_id: right
+      - pitch: 67
+        start_beat: 2.0
+        duration_beats: 2.0
+        velocity: 90
+        track_id: right
+      - pitch: 72
+        start_beat: 3.0
+        duration_beats: 1.0
+        velocity: 94
+        track_id: right
+    pedal:
+      - beat: 0.0
+        value: 127
+      - beat: 4.0
+        value: 0
+
+  - track_id: left
+    name: Left Hand
+    gain_db: -3.0
+    pan: -0.2
+    notes:
+      - pitch: 48
+        start_beat: 0.0
+        duration_beats: 2.0
+        velocity: 72
+        track_id: left
+      - pitch: 43
+        start_beat: 2.0
+        duration_beats: 2.0
+        velocity: 76
+        track_id: left
+    pedal:
+      - beat: 0.0
+        value: 127
+      - beat: 4.0
+        value: 0
